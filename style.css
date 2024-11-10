@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    background: hsl(30, 18%, 87%);
+    font-size: 16px;
+}
+nav{
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.container{
+    border-radius: 12px;
+    width: 550px;
+    background: hsl(0, 0%, 100%);
+    align-items: center;
+    justify-content: center;
+}
+.cont{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.top-img{
+    padding-bottom: 10px;
+}
+.imge{
+    width: 510px;
+    border-radius: 8px;
+}
+ul{
+    list-style-position: outside;
+    padding-left: 30px;
+}
+li{
+    padding: 6px;
+}
+h1{
+    font-family: 'Outfit-Bold' sans-serif;
+    color: hsl(332, 51%, 32%);
+    padding-bottom: 10px;
+}
+.food{
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: black;
+}
+.note{
+    font-size: 14px;
+    padding-bottom: 16px;
+}
+.prep{
+    background: hsl(330, 100%, 98%);
+}
+.topi{
+    padding: 25px;
+}
+p{
+    padding: 10px;
+}
+span{
+    color: black;
+    font-weight: bold;
+}
+.ingre{
+    padding-top: 15px;
+    padding-bottom: 37px;
+}
+.info{
+    padding-top: 30px;
+}
+.nutri{
+    padding-bottom: .5px;
+}
+.nut{
+    padding: 2px;
+    padding-top: 16px;
+}
+.line {
+    position: absolute;
+    width: 37%;
+    height: 2px;
+    background-color: hsl(30, 54%, 90%);
+
+    z-index: 0;
+    /* Line is behind the circle */
+}
+.instruct{
+    padding-top: 20px;
+}
+.calc{
+    padding-right: 250px;
+    font-weight: normal;
+}
+#calc2{
+    padding-right: 262px;
+}
+#calc4{
+    padding-right: 273px;
+}
+.nutri-calc{
+    padding-top: 20px;
+}
+.col{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+#col{
+    padding-top: 5px;
+}
+.num::marker{
+    list-style-type: decimal;
+    
+}
+.tee{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1024px) {
+    body{
+        min-height: 270vh;
+    }
+    nav{
+    width: 375px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.tee {
+    padding-left: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .container{
+        width: 350px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .top-img{
+        padding: 0%;
+    padding-bottom: 10px;
+    }
+   .imge{
+    width: 350px;
+    border-radius: 0%;
+   }
+   .cont {
+    padding: 0%;
+
+   }
+   .mobile {
+       padding-top: 20px;
+       padding-bottom: 20px;
+       padding-left: 20px;
+       padding-right: 20px;
+
+   }
+   .calc {
+       padding-right: 149px;
+       font-weight: normal;
+   }
+
+   #calc2 {
+       padding-right: 164px;
+   }
+
+   #calc4 {
+       padding-right: 172px;
+   }
+   .line {
+       position: absolute;
+       width: 56%;
+       height: 2px;
+       background-color: hsl(30, 54%, 90%);
+       z-index: 0;
+       /* Line is behind the circle */
+   }
+   .food{
+    font-size: 33px;
+   }
+}
